@@ -1,7 +1,7 @@
 front:
   image: dydx/alpine-nginx-phpfpm
   ports:
-    - "80:80"
+    - "4011:80"
   volumes:
     - ./www:/var/www
     - ./sites:/etc/nginx/sites-enabled
@@ -11,6 +11,6 @@ front:
 mysql:
   image: dydx/alpine-mariadb
   ports:
-    - "3306:3306"
+    - "3318:3306"
   volumes:
     - ./database:/var/lib/mysql

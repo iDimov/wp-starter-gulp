@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  font-family: var(--font-roboto);
+  font-size: 14px;
+}
+.site-title a {
+  color: red;
+  text-decoration: none;
+}
+h1 {
+  font-size: 20vw;
+}
